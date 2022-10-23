@@ -14,12 +14,12 @@ power=1
 
 while True:
     if not video_capture.isOpened():
-        print('Unable to load camera.')
+        print('Unable to Load the Camera...')
         sleep(5)
         pass
     else:
         if power==1:
-            print("poweresh")
+            print("poweresh...")
             power=0
         # Capture frame-by-frame
         ret, frame = video_capture.read()
