@@ -14,7 +14,7 @@ power=1
 
 while True:
     if not video_capture.isOpened():
-        print('Unable to Load the Camera...')
+        print('Unable to load Camera...')
         sleep(5)
         pass
     else:
