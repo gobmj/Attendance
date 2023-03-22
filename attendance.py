@@ -19,7 +19,7 @@ while True:
         pass
     else:
         if power==1:
-            print("poweresh...")
+            print("camera on...")
             power=0
         # Capture frame-by-frame
         ret, frame = video_capture.read()
